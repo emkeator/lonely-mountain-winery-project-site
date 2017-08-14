@@ -1,0 +1,46 @@
+
+@mixin coloring() {
+    color: white;
+    background-color: black;
+}
+
+@mixin homeVideoChange() {
+    .fullscreen-bg {
+        background-image: none;
+        video {
+            display: block;
+        }
+    }
+}
+
+@mixin buttonFormat() {
+    font-family: $secondaryFont;
+    text-transform: uppercase;
+    border-radius: 25%;
+    background-color: lightgrey; 
+    padding-top: 5px;
+}
+
+@mixin pageHeadersFormatting() {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    font: {
+        family: $primaryFont;
+        size: 2.8rem;
+    }
+    
+
+    img {
+        width: 90px;
+        height: auto;
+        transform: scale(-1, 1);
+        position: fixed;
+        top: calc(8vh + 50px);
+        right: calc(67% - 150px);
+        z-index: 2;
+        opacity: 0.4;
+    }
+}
