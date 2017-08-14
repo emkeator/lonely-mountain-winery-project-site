@@ -2,7 +2,7 @@
   "name": "wine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://emkeator.github.io/cascadia-winery-site",
+  "homepage": "https://emkeator.github.io/lonely-mountain-winery-project-site/",
   "dependencies": {
     "axios": "^0.16.2",
     "google-maps-react": "^1.1.0",
